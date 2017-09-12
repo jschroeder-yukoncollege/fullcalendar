@@ -1,6 +1,6 @@
 {
   "name": "fullcalendar/fullcalendar",
-  "type": "component",
+  "type": "drupal-library",
   "description": "Full-sized drag & drop event calendar",
   "keywords": [
     "calendar",
@@ -21,7 +21,8 @@
   "require": {
     "robloach/component-installer": "*",
     "components/jquery": "2 - 3",
-    "moment/moment": "^2.9.0"
+    "moment/moment": "^2.9.0",
+		"composer/installers": "^1.19"
   },
   "extra": {
     "component": {
